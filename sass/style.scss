@@ -1,0 +1,100 @@
+@import "setting";
+body {
+  padding-top: 100px;
+  // background: #eee;
+  font-weight: 500;
+  color: #111;
+}
+main {
+  display: flex;
+  align-items: flex-start;
+  width: 1200px;
+  margin: auto;
+  gap: 60px;
+  .profile {
+    width: 250px;
+    position: sticky;
+    top: 20px;
+    .icon {
+      max-width: 150px;
+      margin-bottom: 20px;
+      img {
+        border: solid 1px #eee;
+        border-radius: 10px;
+      }
+    }
+    .name {
+      text-align: center;
+      line-height: 1.4;
+      font-size: 17px;
+      margin-bottom: 1em;
+      span {
+        display: block;
+        font-size: 14px;
+      }
+    }
+    p {
+      line-height: 1.4;
+    }
+    ul {
+      margin-bottom: 40px;
+
+      li {
+        display: flex;
+        gap: 0.6em;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 0.5em;
+        img {
+          height: 1.3em;
+          opacity: 0.5;
+          margin-top: 0.2em;
+        }
+        span {
+          flex: 1;
+        }
+      }
+    }
+    ul.sns {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      padding-top: 10px;
+      border-top: solid 1px #aaa;
+
+      li {
+        img {
+          opacity: 0.6;
+          height: 1.4em;
+        }
+      }
+    }
+  }
+  .content {
+    flex: 1;
+    ul {
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+        font-size: 14px;
+        border-bottom: solid 1px #ddd;
+        .icon {
+          line-height: 1;
+          img {
+            height: 1.4em;
+          }
+        }
+        a {
+          flex: 1;
+        }
+        .day {
+          color: #aaa;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

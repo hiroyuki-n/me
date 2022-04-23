@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+ol,
+ul {
+  list-style: none; }
+
+p {
+  margin-bottom: 0.5em;
+  line-height: 2; }
+  p:last-child {
+    margin-bottom: 0; }
+  p a {
+    text-decoration: underline; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  color: #111;
+  text-decoration: none;
+  transition: 0.3s; }
+  a:hover, a:link, a:active, a:focus {
+    color: #111; }
+  a:hover {
+    opacity: 0.6; }
+
+body {
+  background: #fff;
+  color: #111;
+  line-height: 2;
+  font-family: "M PLUS Rounded 1c", sans-serif; }
+
+.pc {
+  display: block; }
+  @media only screen and (max-width: 420px) {
+    .pc {
+      display: none; } }
+
+.sp {
+  display: none; }
+  @media only screen and (max-width: 420px) {
+    .sp {
+      display: block; } }
+
+h2.heading01 {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 1em 0 0.5em; }
+  @media only screen and (max-width: 420px) {
+    h2.heading01 {
+      font-size: 24px; } }
+  h2.heading01 span {
+    font-size: 0.8em; }
+  h2.heading01::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    border-radius: 10em;
+    background: #d9e021;
+    margin: 0.6em auto; }
+
+.cv_area {
+  background-image: url("../img/parts/cv_area/bg.png");
+  background-size: cover;
+  text-align: center;
+  padding: 60px 15px; }
+  .cv_area h2 {
+    max-width: 700px;
+    margin: auto; }
+  .cv_area .clm {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px; }
+    @media only screen and (max-width: 400px) {
+      .cv_area .clm {
+        padding: 20px;
+        display: block; } }
+    .cv_area .clm .clm_l,
+    .cv_area .clm .clm_r {
+      flex: 1;
+      padding: 0 10px; }
+  .cv_area .comment {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500; }
+
+body {
+  padding-top: 100px;
+  font-weight: 500;
+  color: #111; }
+
+main {
+  display: flex;
+  align-items: flex-start;
+  width: 1200px;
+  margin: auto;
+  gap: 60px; }
+  main .profile {
+    width: 250px;
+    position: sticky;
+    top: 20px; }
+    main .profile .icon {
+      max-width: 150px;
+      margin-bottom: 20px; }
+      main .profile .icon img {
+        border: solid 1px #eee;
+        border-radius: 10px; }
+    main .profile .name {
+      text-align: center;
+      line-height: 1.4;
+      font-size: 17px;
+      margin-bottom: 1em; }
+      main .profile .name span {
+        display: block;
+        font-size: 14px; }
+    main .profile p {
+      line-height: 1.4; }
+    main .profile ul {
+      margin-bottom: 40px; }
+      main .profile ul li {
+        display: flex;
+        gap: 0.6em;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 0.5em; }
+        main .profile ul li img {
+          height: 1.3em;
+          opacity: 0.5;
+          margin-top: 0.2em; }
+        main .profile ul li span {
+          flex: 1; }
+    main .profile ul.sns {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      padding-top: 10px;
+      border-top: solid 1px #aaa; }
+      main .profile ul.sns li img {
+        opacity: 0.6;
+        height: 1.4em; }
+  main .content {
+    flex: 1; }
+    main .content ul li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1em;
+      padding: 1em;
+      font-size: 14px;
+      border-bottom: solid 1px #ddd; }
+      main .content ul li .icon {
+        line-height: 1; }
+        main .content ul li .icon img {
+          height: 1.4em; }
+      main .content ul li a {
+        flex: 1; }
+      main .content ul li .day {
+        color: #aaa;
+        font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
