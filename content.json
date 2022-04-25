@@ -31,15 +31,52 @@
   },
   {
     "day": "2021/01/19",
-    "title": "PHPで書くWordPressループ処理の基本と、件数やカテゴリーなどを指定する方法",
+    "title": "WordPressループ処理、件数やカテゴリー指定",
     "type": "qiita",
     "url": "https://qiita.com/hiroyuki-n/items/a1d4273e7cb9bd99a052"
   },
   {
     "day": "2021/01/13",
-    "title": "線を描くようなSVGのラインアニメーションの作り方",
+    "title": "SVGアイコンをラインアニメーション",
     "type": "qiita",
     "url": "https://qiita.com/hiroyuki-n/items/9f7667f249bd73905fbc"
+  },
+  {
+    "day": "2021/01/11",
+    "title": "jQueryとCSSでマウスカーソルを良い感じに",
+    "type": "qiita",
+    "url": "https://qiita.com/hiroyuki-n/items/42498d7a012aaf124e1f"
+  },
+
+  {
+    "day": "2020/08/23",
+    "title": "Shopifyでフロント側をイジるときのLiquidの書き方",
+    "type": "qiita",
+    "url": "https://qiita.com/hiroyuki-n/items/762e939be084aa46432a"
+  },
+  {
+    "day": "2020/08/20",
+    "title": "生年月日から年齢を計算して表示 JS PHP",
+    "type": "qiita",
+    "url": "https://qiita.com/hiroyuki-n/items/dd8eba74a4310439be68"
+  },
+  {
+    "day": "2020/08/19",
+    "title": "JavaScriptでCSVをHTML表示",
+    "type": "qiita",
+    "url": "https://qiita.com/hiroyuki-n/items/5786c8fc84eb85944681"
+  },
+  {
+    "day": "2020/07/28",
+    "title": "JavaScriptでラジオボタンの情報を取得",
+    "type": "qiita",
+    "url": "https://qiita.com/hiroyuki-n/items/9c9b49e0b193cdac20a7"
+  },
+  {
+    "day": "2020/07/28",
+    "title": "PHPでアクセスされているURLを取得",
+    "type": "qiita",
+    "url": "https://qiita.com/hiroyuki-n/items/669957067765bd87e153"
   },
   {
     "day": "2020/07/18",
@@ -54,7 +91,25 @@
     "url": "https://hiroyuki-n.github.io/boxShadow_generator/"
   },
   {
-    "day": "2019/05/07",
+    "day": "2020/01/28",
+    "title": "まさき体操クラブ",
+    "type": "behance",
+    "url": "https://www.behance.net/gallery/142298867/_"
+  },
+  {
+    "day": "2018/12/24",
+    "title": "chikako azuma",
+    "type": "behance",
+    "url": "https://www.behance.net/gallery/142300565/_"
+  },
+  {
+    "day": "2018/08/25",
+    "title": "CHIPICON",
+    "type": "behance",
+    "url": "https://www.behance.net/gallery/142329385/_"
+  },
+  {
+    "day": "2017/05/07",
     "title": "あまみ理髪店",
     "type": "behance",
     "url": "https://www.behance.net/gallery/141953083/_"
