@@ -87,9 +87,6 @@ main .profile {
   main .profile {
     width: 100%;
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin: auto;
     gap: 20px;
     -webkit-box-align: center;
@@ -105,7 +102,7 @@ main .profile .icon {
 
 @media only screen and (max-width: 500px) {
   main .profile .icon {
-    width: 60px;
+    width: 120px;
     margin: 0 auto 20px;
   }
 }
@@ -123,6 +120,7 @@ main .profile .txt_box {
 
 main .profile .txt_box ul.data {
   margin-bottom: 20px;
+  padding: 0 5px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -171,8 +169,8 @@ main .profile .txt_box ul.sns {
   gap: 1em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 15px;
   border-top: solid 1px #ddd;
+  padding: 15px 5px 0;
 }
 
 main .profile .txt_box ul.sns li img {
@@ -194,7 +192,7 @@ main .content ul li {
   -ms-grid-columns: 1.5em 1fr 6em;
       grid-template-columns: 1.5em 1fr 6em;
   grid-column-gap: 1em;
-  padding: 1em;
+  padding: 10px;
   border-bottom: solid 1px #ddd;
 }
 
@@ -205,7 +203,7 @@ main .content ul li {
     -ms-grid-rows: auto 1fr;
         grid-template-rows: auto 1fr;
     gap: 0.5em;
-    padding: 1em 0.5em;
+    padding: 15px 5px;
   }
 }
 
