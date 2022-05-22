@@ -94,11 +94,6 @@ main {
       flex: 1;
       ul.data {
         margin-bottom: 20px;
-        @media only screen and (max-width: 850px) {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 0 20px;
-        }
 
         li {
           display: flex;

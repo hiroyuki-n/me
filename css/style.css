@@ -123,17 +123,6 @@ main .profile .txt_box ul.data {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 850px) {
-  main .profile .txt_box ul.data {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 0 20px;
-  }
-}
-
 main .profile .txt_box ul.data li {
   display: -webkit-box;
   display: -ms-flexbox;
