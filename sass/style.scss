@@ -63,8 +63,10 @@ main {
   gap: 60px;
   @media only screen and (max-width: 850px) {
     flex-direction: column;
+    padding: 100px 15px;
     max-width: 600px;
   }
+
   .profile {
     width: 250px;
     position: sticky;
@@ -76,12 +78,13 @@ main {
       gap: 20px;
       align-items: center;
     }
-    @media only screen and (max-width: 500px) {
-      flex-direction: column;
-    }
+
     .icon {
       width: 150px;
       margin-bottom: 20px;
+      @media only screen and (max-width: 500px) {
+        width: 60px;
+      }
       img {
         border: solid 1px $color_gray_l;
         border-radius: 10px;
